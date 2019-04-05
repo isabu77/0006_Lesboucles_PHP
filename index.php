@@ -25,6 +25,15 @@ while (!($x <= 10)){
 	$x--;
 }
 
+// exercice 4
+echo "-- Exercice 4 : Incrémenter de la moitié de sa valeur de 1 à 10 " . "<br>";
+$x = 1;
+while ($x < 10){
+	echo $x . "<br>";
+	$x += $x/2;
+}
+
+
 ?>
 <!DOCTYPE html>
 <html>
