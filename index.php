@@ -45,6 +45,12 @@ for ($x = 20 ; $x >= 0 ; $x--){
 	echo "C'est presque bon." . "<br>";
 }
 
+// exercice 7
+echo "-- Exercice 7 : On tient le bon bout de 1 à 100 par 15 " . "<br>";
+for ($x = 1 ; $x <= 100; $x+=15){
+	echo "On tient le bon bout." . "<br>";
+}
+
 
 ?>
 <!DOCTYPE html>
