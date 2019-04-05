@@ -51,6 +51,12 @@ for ($x = 1 ; $x <= 100; $x+=15){
 	echo "On tient le bon bout." . "<br>";
 }
 
+// exercice 8
+echo "-- Exercice 8 : Enfin !!!! de 200 à 0 par 12 " . "<br>";
+for ($x = 200 ; $x >= 0; $x-=12){
+	echo "Enfin !!!!" . "<br>";
+}
+
 
 ?>
 <!DOCTYPE html>
